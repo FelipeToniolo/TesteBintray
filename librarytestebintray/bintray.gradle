@@ -45,8 +45,8 @@ bintray {
     key = properties.getProperty("bintray.apikey")
 
     pkg {
-        repo = 'maven'
-        name = 'br.com.toniolo.librarytestebintray'
+        repo = 'TestBintray'
+        name = 'librarytestebintray'
         configurations = ['archives']
         desc = 'An android library.'
         websiteUrl = 'https://github.com/FelipeToniolo/TesteBintray'

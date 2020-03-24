@@ -7,7 +7,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                groupId 'br.com.toniolo.librarytestebintray'
+                groupId 'br.com.toniolo'
                 artifactId 'librarytestebintray'
                 name 'librarytestebintray'
                 description 'An android library.'
