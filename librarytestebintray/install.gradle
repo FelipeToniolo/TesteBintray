@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'br.com.toniolo.librarytestebintray'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'br.com.toniolo.librarytestebintray'
+                artifactId 'librarytestebintray'
+                name 'librarytestebintray'
+                description 'An android library.'
+                url 'https://github.com/FelipeToniolo/TesteBintray'
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'cuttlesoft'
+                        name 'Felipe Toniolo'
+                        email 'ftoniolo.aat@gmail.com'
+                    }
+                }
+
+                scm {
+                    connection 'https://github.com/FelipeToniolo/TesteBintray.git'
+                    developerConnection 'https://github.com/FelipeToniolo/TesteBintray.git'
+                    url 'https://github.com/FelipeToniolo/TesteBintray'
+                }
+            }
+        }
+    }
+}
