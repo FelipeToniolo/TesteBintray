@@ -22,8 +22,8 @@ install {
 
                 developers {
                     developer {
-                        id 'cuttlesoft'
-                        name 'Felipe Toniolo'
+                        id 'FelipeToniolo'
+                        name 'Felipe'
                         email 'ftoniolo.aat@gmail.com'
                     }
                 }
